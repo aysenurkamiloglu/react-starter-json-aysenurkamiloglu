@@ -1,8 +1,16 @@
-function App() {
+import Students from "./components/Students/Students";
+//import Lessons from "./components/Lessons/Lessons";
+
+import "./App.css";
+import Assistants from "./components/Assistants/Assistants";
+
+const App = () => {
+
   return (
-    <header>
-      <h1>Kodluyoruz React Bootcamp</h1>
-    </header>
+    <section className="app">
+      <Students></Students>
+      <Assistants></Assistants>
+    </section>
   );
 }
 
